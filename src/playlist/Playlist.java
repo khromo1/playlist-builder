@@ -14,15 +14,15 @@ public class Playlist {
         this.repeat = builder.repeat;
         this.isPrivate = builder.isPrivate;
         this.coverImage = builder.coverImage;
-        public String getName() { return name; }
-        public List<String> getTracks() { return tracks; }
-        public boolean isShuffle() { return shuffle; }
-        public boolean isRepeat() { return repeat; }
-        public boolean isPrivate() { return isPrivate; }
-        public String getCoverImage() { return coverImage; }
-        @Override
-        public String toString() {
-            return "Playlist{name='" + name + "', tracks=" + tracks + ", shuffle=" + shuffle + "}";
-        }
+    }
+    public String getName() { return name; }
+    public List<String> getTracks() { return tracks; }
+    public boolean isShuffle() { return shuffle; }
+    public boolean isRepeat() { return repeat; }
+    public boolean isPrivate() { return isPrivate; }
+    public String getCoverImage() { return coverImage; }
+    @Override
+    public String toString() {
+        return "Playlist{name='" + name + "', tracks=" + tracks + ", shuffle=" + shuffle + "}";
     }
 }
