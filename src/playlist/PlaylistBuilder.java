@@ -8,12 +8,6 @@ public class PlaylistBuilder {
     boolean repeat = false;
     boolean isPrivate = false;
     String coverImage;
-    String name;
-    List<String> tracks = new ArrayList<>();
-    boolean shuffle = false;
-    boolean repeat = false;
-    boolean isPrivate = false;
-    String coverImage;
     public PlaylistBuilder setName(String name) {
         this.name = name;
         return this;
